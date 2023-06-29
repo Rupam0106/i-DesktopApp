@@ -1,0 +1,27 @@
+{
+  "name": "i-desktopapp",
+  "version": "1.0.0",
+  "description": "Create simple desktop App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rupam0106/i-DesktopApp.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Rupam Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rupam0106/i-DesktopApp/issues"
+  },
+  "homepage": "https://github.com/Rupam0106/i-DesktopApp#readme",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
+}
